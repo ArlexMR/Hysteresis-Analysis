@@ -1,0 +1,21 @@
+[Random Forest]
+n_estimators = 100
+bootstrap = True 
+max_samples = 0.8 
+n_jobs =  -1 
+oob_score = False
+
+[KNN]
+algorithm = 'brute'
+metric =  'minkowski' 
+n_jobs = -1 
+n_neighbors = 6 
+p = 1 
+weights = 'distance'
+
+[GBT]
+learning_rate = 0.1
+n_estimators = 50
+subsample = 0.5
+
+[LASSO]
